@@ -1,2 +1,2 @@
 # N-Queens
-Solving the N Queenz puzzle using backtracking algorithm
+Solving the N Queens puzzle using backtracking algorithm
