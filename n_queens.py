@@ -2,7 +2,7 @@ n=int(input("Enter the size of the board"))
 
 def reset():
     global board
-    board=[[0]*n for i in range(8)]
+    board=[[0]*n for i in range(n)]
 
 reset()
 
