@@ -1,4 +1,4 @@
-n=int(input("Enter the size of the board"))
+n=int(input("Enter the size of the board : "))
 
 def reset():
     global board
@@ -35,6 +35,7 @@ def display(board):
     else:
         for i in range(0,n):
             for j in range(0,n):
-                print(board[i][j])
+                print(board[i][j],end=" ")
+            print()
 
 display(board)
