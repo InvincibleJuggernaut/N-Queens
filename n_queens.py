@@ -31,7 +31,7 @@ def marker(board, column):
 
 def display(board):
     if(marker(board, 0)==False):
-        print("No feasible solutions exist")
+        print("No feasible solutions exist for the given dimensions")
     else:
         for i in range(0,n):
             for j in range(0,n):
