@@ -12,5 +12,6 @@
 <p align="center">
   <img src="Assets/8-Queens.png">
   </p> 
- 
+<p> This is just one possible solution to the above problem. There are 92 unique solutions to 8x8 puzzle which includes rotation of a solution to obtain a new one. As such, there are 12 fundamental solutions.</p>
+
 <p>The above program helps us achieve that task.</p>
