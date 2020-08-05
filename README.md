@@ -5,4 +5,5 @@
 <p align="center">
   <img src="Queens - moves.png">
   </p>
-<p>In some ways, the queen can be thought of as the most powerful piece on the chessboard. The above image shows the moves avilable to the queen in the next move. It can move along the four main directions as well as diagonally; not limited by the num ber of jumps. Therefore, the challenge is to place 8 queens in a 8x8 chessboard such that no queen can attack another.</p>
+<p>In some ways, the queen can be thought of as the most powerful piece on the chessboard. The above image shows the moves avilable to the queen in the next move. It can move along the four main directions as well as diagonally; not limited by the number of jumps. Therefore, the challenge is to place 8 queens in a 8x8 chessboard such that no queen can attack another.</p>
+<p>The above program helps us achieve that task.</p>
