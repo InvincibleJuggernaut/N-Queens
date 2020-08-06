@@ -15,7 +15,7 @@
 <p align="center">
   <img src="Assets/8-Queens.png">
   </p> 
-<p> This is just one possible solution to the above problem. There are 12 unique solutions to 8x8 puzzle. These solutions can be rotated to obtain even more solutions. In total, this would amount to 92 solutions for a chessbaord.</p>
+<p> This is just one possible solution to the above problem. There are 12 unique solutions to 8x8 puzzle. These solutions can be rotated to obtain even more solutions. In total, this would amount to 92 solutions for a chessboard.</p>
 
 <h2>Technology</h2>
 <ul type="disc">
@@ -24,7 +24,18 @@
 
 <h2>Cloning</h2>
 <p>Open Terminal in your preferred directory and type :</p>
+
 ```
 git clone https://github.com/InvincibleJuggernaut/N-Queens.git
 ```
+
+<h2>Usage</h2>
+<p>Open the repository and open Terminal to run the program using :</p>
+
+```
+python3 n_queens.py
+````
+
+
+
 
