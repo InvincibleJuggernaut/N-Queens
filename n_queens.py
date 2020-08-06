@@ -1,10 +1,24 @@
 n=int(input("Enter the size of the board : "))
+counter=0
 
 def reset():
     global board
     board=[[0]*n for i in range(n)]
+    
+    if(marker(board, 0)==False and counter==1):
+        print("No feasible solution exists for the given dimensions")
+        
 
-reset()
+
+def display(board):
+    global counter
+    counter+=1
+    for i in range(0, n):
+        for j in range(0, n):
+            print(board[i][j], end=" ")
+        print()
+    print()
+    
 
 def check(board, row, column):
     for i in range(0, column):
@@ -19,23 +33,17 @@ def check(board, row, column):
     return True
     
 def marker(board, column):
-    if column>=n:
+    possibility=False   
+    if column==n:
+        display(board)
         return True
     for i in range(0, n):
         if(check(board, i, column)==True):
             board[i][column]=1
-            if(marker(board, column+1)==True):
-                return True
+            possibility=marker(board, column+1)
             board[i][column]=0
-    return False
+    return possibility
 
-def display(board):
-    if(marker(board, 0)==False):
-        print("No feasible solutions exist for the given dimensions")
-    else:
-        for i in range(0,n):
-            for j in range(0,n):
-                print(board[i][j],end=" ")
-            print()
 
-display(board)
+reset()
+print("There are a total of "+str(counter)+" possibilities for the given dimensions !")
