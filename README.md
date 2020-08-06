@@ -35,7 +35,9 @@ git clone https://github.com/InvincibleJuggernaut/N-Queens.git
 ```
 python3 n_queens.py
 ````
-
+<p align="center">
+  <img src="Assets/N-Queens_in_action.png">
+  </p>
 
 
 
