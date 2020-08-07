@@ -1,4 +1,7 @@
 # N-Queens
+[![](https://img.shields.io/badge/MADE%20WITH%20-Python-blueviolet)](https://www.python.org)
+[![](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+
 
 <h2>Introduction</h2>
 <p>N queens is a famous puzzle of placing N queens in a NxN gridboard. The puzzle originates from the Eight queens puzzle in chess.</p>
