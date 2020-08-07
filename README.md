@@ -42,5 +42,7 @@ python3 n_queens.py
   <img src="Assets/N-Queens_in_action.png">
   </p>
 
+<h2>License</h2>
 
+<a href="LICENSE">MIT License</a>
 
